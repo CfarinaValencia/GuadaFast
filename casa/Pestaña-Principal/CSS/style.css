@@ -1,0 +1,436 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header #logo {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+header #casa-logo {
+  font-size: 30px;
+  color: rgb(231, 43, 43);
+}
+header .bg-dark {
+  transition: 1s ease-in-out;
+}
+header #lista a {
+  color: white;
+}
+header #lista .nav-link {
+  font-weight: bolder;
+  font-size: 18px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+header #lista .nav-link-active {
+  color: rgb(231, 43, 43);
+  border-bottom: 1px solid rgb(231, 43, 43);
+}
+header #lista .nav-link:hover {
+  color: rgb(231, 43, 43);
+  border-bottom: 1px solid rgb(231, 43, 43);
+  transition: 400ms ease-in-out;
+}
+header #lista #login {
+  background-color: rgb(231, 43, 43);
+  border-radius: 15px;
+  padding: 10px;
+}
+header #lista #login:hover {
+  background-color: transparent;
+  border: 1px solid rgb(231, 43, 43);
+  transition: 400ms ease-in-out;
+}
+header .hero {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-transform: uppercase;
+  height: 90vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../IMG/header-bg.jpg");
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+header .hero h1 {
+  -webkit-text-fill-color: rgb(231, 43, 43);
+  -webkit-text-stroke: 1px rgb(231, 43, 43);
+  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+  font-size: 60px;
+  font-weight: bold;
+}
+header .hero p {
+  font-size: 25px;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px white;
+  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+main .diff-color-text {
+  color: rgb(231, 43, 43);
+}
+main .diff-color-text-list {
+  color: rgb(231, 43, 43);
+  font-weight: bold;
+  -webkit-text-fill-color: rgb(231, 43, 43);
+  -webkit-text-stroke: 1px black;
+}
+main .diff-color-text-list:hover {
+  -webkit-text-fill-color: rgb(88, 88, 194);
+}
+main .main-title {
+  font-size: 45px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+main .nosotros .text-nosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+main .nosotros .quienes-somos .text-quienes-somos {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: justify;
+}
+main .nosotros .quienes-somos .text-quienes-somos:hover {
+  transition: 1s;
+  border: 1px solid rgb(231, 43, 43);
+}
+main .nosotros .quienes-somos img {
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 65px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 65px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 65px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 20px;
+}
+main .nosotros .mv-style {
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+main .nosotros .mv-style .img-mv img {
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 65px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 65px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 65px 0px rgba(0, 0, 0, 0.75);
+}
+main .nosotros .mv-style .mision {
+  font-size: 17px;
+  margin: 10px;
+  padding: 5px;
+}
+main .nosotros .mv-style .mision .mision-title {
+  -webkit-text-fill-color: rgb(255, 255, 255);
+  -webkit-text-stroke: 1px black;
+}
+main .nosotros .mv-style .mision:hover {
+  transition: 1s;
+  padding: 10px;
+}
+main .nosotros .mv-style .vision {
+  font-size: 17px;
+  margin: 10px;
+  padding: 5px;
+}
+main .nosotros .mv-style .vision .vision-title {
+  -webkit-text-fill-color: rgb(255, 255, 255);
+  -webkit-text-stroke: 1px black;
+}
+main .nosotros .mv-style .vision:hover {
+  transition: 1s;
+  padding: 10px;
+}
+main .nosotros .principios {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /*4 columnas*/
+  gap: 30px; /*Espaciado entre las columnas*/
+  padding: 40px;
+  align-items: center;
+}
+main .nosotros .principios .principios-title {
+  font-size: 35px;
+}
+main .nosotros .principios .principios-list {
+  font-size: 19px;
+  margin-top: 20px;
+  list-style: circle;
+  text-align: justify;
+}
+main .nosotros .principios .principios-list li {
+  margin-bottom: 15px;
+}
+main .nosotros .principios img {
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 65px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 65px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 65px 0px rgba(0, 0, 0, 0.75);
+}
+main .nosotros .fundadores {
+  background-color: rgb(240, 240, 240);
+  padding: 10px 0;
+}
+main .nosotros .fundadores .personas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /*4 columnas*/
+  gap: 150px; /*Espaciado entre las columnas*/
+  margin: auto;
+  padding: 60px;
+}
+main .nosotros .fundadores .person-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main .nosotros .fundadores .person-one img {
+  width: 50%;
+  border-radius: 100%;
+}
+main .nosotros .fundadores .person-one h3 {
+  margin-top: 10px;
+}
+main .nosotros .fundadores .person-one p {
+  font-size: 18px;
+}
+main .nosotros .fundadores .person-one .redes a {
+  margin: 0 10px;
+}
+main .nosotros .fundadores .person-one .redes .wp {
+  color: green;
+}
+main .nosotros .fundadores .person-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main .nosotros .fundadores .person-two img {
+  width: 50%;
+  border-radius: 100%;
+}
+main .nosotros .fundadores .person-two h3 {
+  margin-top: 10px;
+}
+main .nosotros .fundadores .person-two p {
+  font-size: 18px;
+}
+main .nosotros .fundadores .person-two .redes a {
+  margin: 0 10px;
+}
+main .nosotros .fundadores .person-two .redes .wp {
+  color: green;
+}
+main .nosotros .fundadores .person-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main .nosotros .fundadores .person-three img {
+  width: 50%;
+  border-radius: 100%;
+}
+main .nosotros .fundadores .person-three h3 {
+  margin-top: 10px;
+}
+main .nosotros .fundadores .person-three p {
+  font-size: 18px;
+}
+main .nosotros .fundadores .person-three .redes a {
+  margin: 0 10px;
+}
+main .nosotros .fundadores .person-three .redes .wp {
+  color: green;
+}
+main .servicios {
+  background-color: rgb(19, 19, 68);
+  color: white;
+  padding: 20px;
+}
+main .servicios .text-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+main .servicios .text-services p {
+  font-size: 19px;
+}
+main .servicios .services-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /*4 columnas*/
+  gap: 25px; /*Espaciado entre las columnas*/
+  margin: 20px 0;
+}
+main .servicios .services-cards img {
+  width: 150px;
+}
+main .servicios .services-cards .cards {
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-align: justify;
+  padding: 12px;
+}
+main .location {
+  padding: 20px;
+}
+main .location iframe {
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+}
+main .questions {
+  background-color: rgb(240, 240, 240);
+  padding: 5px 20px 60px 20px;
+}
+main .contacto .p-contactanos {
+  text-align: justify;
+  font-size: 18px;
+}
+main .contacto .numero-telefonico {
+  background-color: rgb(1, 4, 41);
+  color: whitesmoke;
+  padding: 15px 0;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+main .contacto .numero-telefonico .p-numero {
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+main .contacto .container-formulario {
+  background-color: rgb(1, 4, 41);
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+main .contacto .container-formulario .formulario {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+main .contacto .container-formulario .formulario .datos-personales input {
+  margin: 10px 0 10px 0;
+  border-radius: 5px;
+}
+main .contacto .container-formulario .formulario .datos-personales input::placeholder {
+  font-weight: bold;
+  opacity: 0.7;
+}
+main .contacto .container-formulario .formulario .asunto-descripcion input {
+  margin: 10px 0 10px 0;
+  border-radius: 5px;
+}
+main .contacto .container-formulario .formulario .asunto-descripcion input::placeholder {
+  font-weight: bold;
+  opacity: 0.7;
+}
+main .contacto .container-formulario .formulario .asunto-descripcion textarea {
+  border-radius: 5px;
+}
+main .contacto .container-formulario .formulario .asunto-descripcion textarea::placeholder {
+  font-weight: bold;
+  opacity: 0.7;
+}
+main .contacto .container-formulario .container-boton {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+main .contacto .container-formulario .container-boton .boton {
+  padding: 5px 3rem 5px 3rem;
+}
+
+footer {
+  padding: 10px;
+  background-color: rgb(1, 4, 41);
+}
+footer .footer-links {
+  font-size: 12px;
+  padding: 35px;
+}
+footer .footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+}
+footer ul {
+  margin: 0 auto;
+}
+footer ul li {
+  line-height: 2.8;
+}
+footer ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+footer ul li a:hover {
+  color: rgb(231, 43, 43);
+}
+footer .copyright {
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  main .nosotros .mv-style {
+    flex-direction: column;
+  }
+  main .nosotros .principios {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  main .nosotros .fundadores .personas {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  main .servicios .services-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  main .contacto .formulario {
+    flex-direction: column;
+  }
+  main .contacto .numero-telefonico .p-numero {
+    font-size: 20px;
+  }
+  main .contacto .container-formulario .formulario {
+    gap: 0;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  footer .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

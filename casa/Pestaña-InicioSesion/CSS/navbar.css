@@ -1,0 +1,33 @@
+header #logo {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+header #casa-logo {
+  font-size: 30px;
+  color: rgb(231, 43, 43);
+}
+header .bg-dark {
+  transition: 1s ease-in-out;
+}
+header #lista a {
+  color: white;
+}
+header #lista #login {
+  font-weight: bolder;
+  font-size: 18px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+  background-color: rgb(231, 43, 43);
+  border-radius: 15px;
+  padding: 10px;
+}
+header #lista #login:hover {
+  color: rgb(231, 43, 43);
+  background-color: transparent;
+  border: 1px solid rgb(231, 43, 43);
+  transition: 400ms ease-in-out;
+}
+
+/*# sourceMappingURL=navbar.css.map */

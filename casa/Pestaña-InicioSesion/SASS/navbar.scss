@@ -1,0 +1,42 @@
+$main-color-red : rgb(231, 43, 43);
+
+header{
+    #logo{
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    #casa-logo{
+        font-size: 30px;
+        color: $main-color-red;
+    }
+
+    .bg-dark{
+        transition: 1s ease-in-out;
+    }
+
+    #lista{
+        a{
+            color: white;
+        }
+
+        #login{
+            font-weight: bolder;
+            font-size: 18px;
+            margin-right: 20px;
+            margin-bottom: 5px;
+            text-align: center;
+            background-color: rgb(231, 43, 43);
+            border-radius: 15px;
+            padding: 10px;
+        }
+
+        #login:hover{
+            color: $main-color-red;
+            background-color: transparent;
+            border: 1px solid $main-color-red;
+            transition: 400ms ease-in-out;
+        }
+    }
+}
